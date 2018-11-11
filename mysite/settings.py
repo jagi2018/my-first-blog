@@ -25,7 +25,7 @@ SECRET_KEY = '(t#qf84k_x3uq-txcupqt7b%cw%u*1lut!350(8$3k!*2w*4n8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'jagi2020.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', ' . pythonanywhere.com']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog.apps.BlogConfig'
+    'blog'
 ]
 
 MIDDLEWARE = [
